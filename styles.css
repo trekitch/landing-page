@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 2% 10%;
+}
+
+.container{
+    margin-right:2em;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    gap: 32px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero{
+    display: flex;
+    padding: 2% 10%;
+    background-color: #1F2937;
+    font-size: 35px;
+    font-weight: extra-bold;
+    align-items: center;
+    color: #f9faf8;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.hero img{
+    height: 400px;
+    width: 700px;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 1em;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    color: #f9faf8;
+    font-weight: bold;
+    border: 1px solid white;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #e5e7eb;
+    border-radius: 5px;
+  }
+  
+.title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: #1f2937;
+}  
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    padding: 25px;
+  }
+
+  .info {
+    max-width: 200px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+  }
+
+.quote-section{
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+    padding: 10%;
+}
+
+.quote-source{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: end;
+    
+}
+
+.action{
+    background-color: #3882f6;
+    text-align: center;
+    margin: 5% 12%;
+    padding: 2em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    color: #fff;
+}
+
+.action-text{
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+}
+
+footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 24px;
+    padding: 2% 10%;
+}
